@@ -3,8 +3,6 @@ from PIL import Image
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
 
-import numpy as np
-
 image_path = "dataset/train/ants_image/6240338_93729615ec.jpg"
 img_PIL = Image.open(image_path)
 
